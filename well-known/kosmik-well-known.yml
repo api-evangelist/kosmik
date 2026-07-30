@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of the Kosmik web hosts
+hosts:
+- host: https://www.kosmik.app
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://launchpad.kosmik.app
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    soft_404: true
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_404: true
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_404: true
+  - path: /.well-known/api-catalog
+    status: 200
+    soft_404: true
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    soft_404: true
+  notes: >-
+    launchpad.kosmik.app is a single-page application whose server returns
+    HTTP 200 with the SPA HTML shell (content-type text/html) for every path,
+    including a control request for a random non-existent path. None of these
+    responses are real well-known documents; all are soft 404s and none were
+    saved.
+documents: []
+result: none-published
+notes: >-
+  Kosmik publishes no /.well-known/ discovery documents. No WellKnown or
+  SecurityTxt pointer is wired into apis.yml, because no document exists.

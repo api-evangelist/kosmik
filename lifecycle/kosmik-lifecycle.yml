@@ -1,0 +1,60 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.kosmik.app/
+summary: >-
+  Kosmik is an end-of-life consumer product. The vendor (Lithium Media SAS,
+  Paris) announced on the product homepage that Kosmik would sunset on
+  2026-05-31, and published data-export instructions in place of a migration
+  API. There is no public API, no versioning policy, no SLA and no status page.
+status: sunset
+end_of_life:
+  announced_on_page: https://www.kosmik.app/
+  sunset_date: '2026-05-31'
+  announcement_quote: >-
+    After several years building Kosmik alongside this amazing community, we've
+    decided that Kosmik will sunset on May 31st 2026.
+  vendor_statement: >-
+    We still believe that something like Kosmik is needed and we're exploring
+    several options to continue our work on spatial interfaces and
+    document-oriented systems.
+deprecation:
+  policy_url: https://www.kosmik.app/0-wind-down-export
+  policy_type: product-wind-down
+  sunset_header: false
+  user_data_export:
+    supported: true
+    docs: https://www.kosmik.app/0-wind-down-export
+    scopes:
+    - universe
+    - workspace
+    format: zip archive of files (images, videos, texts)
+    mechanism: in-app export, no API
+versioning:
+  scheme: application-release
+  current: Kosmik 3
+  notes: >-
+    Desktop application releases distributed from launchpad.kosmik.app; no API
+    versioning surface is published.
+  docs: https://www.kosmik.app/downloads
+sla:
+  url: null
+  uptime_target: null
+status_page: null
+product_timeline:
+- year: 2018
+  note: >-
+    First app to store data locally through an on-device IPFS node while
+    offering multiplayer capabilities.
+- year: 2022
+  note: Introduced the first multiplayer web-browser (demoed at Betaworks ThinkCAMP).
+- year: 2025
+  note: >-
+    Kosmik 3 released — rebuilt app with built-in browser, auto-tagging and AI
+    search.
+- year: 2026
+  note: Sunset announced for 2026-05-31.
+deprecated_operations: []
+notes: >-
+  No StatusPage pointer is emitted because Kosmik publishes no status page.
+  A Deprecation pointer is emitted against the wind-down/export page, which is
+  the provider's published end-of-life policy.

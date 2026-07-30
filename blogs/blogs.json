@@ -1,0 +1,28 @@
+{
+  "repo": "kosmik",
+  "feeds": [
+    {
+      "source": "https://discord.gg/SfH7RARrBy",
+      "feed_url": "https://discord.gg/SfH7RARrBy",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://kosmikapp.substack.com/feed",
+      "feed_url": "https://kosmikapp.substack.com/feed",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://kosmikapp.substack.com/",
+      "feed_url": "https://kosmikapp.substack.com/feed",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 20,
+  "fetched": "2026-07-25T15:00:33Z"
+}

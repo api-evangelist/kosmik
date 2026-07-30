@@ -1,0 +1,58 @@
+# Kosmik
+
+> Kosmik was an infinite-canvas visual workspace and moodboarding app for macOS and Windows,
+> built by Lithium Media SAS in Paris. It combined a spatial canvas ("universes" grouped into
+> "workspaces") with a built-in web browser, web clipper, PDF reader, real-time multiplayer
+> collaboration, and AI features (auto-tagging, AI search, AI asset discovery). Kosmik shipped
+> no public API, SDK, CLI or webhook surface. The product sunset on 2026-05-31; the vendor now
+> publishes data-export instructions in place of any migration interface.
+
+## Status
+
+- Product status: sunset (end of life 2026-05-31)
+- Wind-down and data export: https://www.kosmik.app/0-wind-down-export
+- API surface: none published
+
+## Site
+
+- Website: https://www.kosmik.app/
+- Use cases: https://www.kosmik.app/use-cases
+- Pricing: https://www.kosmik.app/pricing
+- Downloads: https://www.kosmik.app/downloads
+- App / launchpad: https://launchpad.kosmik.app/
+- Tutorials: https://www.kosmik.app/tutorials
+- FAQ / help: https://www.kosmik.app/faq
+- Contact: https://www.kosmik.app/contact-us
+- Comparison: https://www.kosmik.app/kosmik-vs-figma
+
+## Writing
+
+- Blog: https://www.kosmik.app/blog
+- Newsletter: https://kosmikapp.substack.com/
+
+## Community
+
+- Discord: https://discord.gg/SfH7RARrBy
+- Reddit: https://www.reddit.com/r/kosmik_app/
+- X / Twitter: https://twitter.com/kosmik_app
+
+## Legal
+
+- Terms of use: https://www.kosmik.app/terms
+- Privacy policy: https://www.kosmik.app/privacy
+- Legal notice (publisher: Lithium Media SAS, 106 Boulevard de Sebastopol, 75003 Paris): https://www.kosmik.app/legal-notice
+
+## API Evangelist artifacts
+
+- APIs.json: https://raw.githubusercontent.com/api-evangelist/kosmik/refs/heads/main/apis.yml
+- Lifecycle: https://raw.githubusercontent.com/api-evangelist/kosmik/refs/heads/main/lifecycle/kosmik-lifecycle.yml
+- Domain security: https://raw.githubusercontent.com/api-evangelist/kosmik/refs/heads/main/security/kosmik-domain-security.yml
+- Well-known probe: https://raw.githubusercontent.com/api-evangelist/kosmik/refs/heads/main/well-known/kosmik-well-known.yml
+
+## Notes
+
+- No OpenAPI, AsyncAPI, GraphQL or gRPC definition is published, so no specs, overlays,
+  error catalog, data model, conventions, scopes, agent skills or MCP server can be derived.
+- The pricing page listed "MCP integrations" as a coming-soon feature of an unreleased
+  "Ambassador" plan. It never shipped and the product has since sunset, so no MCPServer
+  artifact is claimed.
