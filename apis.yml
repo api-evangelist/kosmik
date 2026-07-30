@@ -1,20 +1,50 @@
 aid: kosmik
 name: Kosmik
-description: 'Kosmik is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Kosmik was an infinite-canvas visual workspace and AI moodboarding app for macOS
+  and Windows, published by Lithium Media SAS in Paris and backed by Creandum. It organized work
+  into spatial "universes" grouped in shared workspaces, and combined that canvas with a built-in
+  web browser, web clipper, PDF reader, drawing and frames, real-time multiplayer collaboration,
+  and AI features including auto-tagging, AI search and AI-assisted asset discovery. Kosmik was
+  an early mover on local-first storage, shipping an on-device IPFS node with multiplayer in 2018
+  and a multiplayer web browser in 2022, before consolidating that work into Kosmik 3 in 2025.
+  Kosmik shipped no public API, SDK, CLI or webhook surface, and the product sunset on 31 May
+  2026; the vendor now publishes in-app universe and workspace export instructions in place of
+  any migration interface.'
 url: https://raw.githubusercontent.com/api-evangelist/kosmik/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/WeKCvxN6nLReUibSg32gomK7pw.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - creandum
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
+x-status: sunset
+x-sunset-date: '2026-05-31'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Productivity
+- Visual Collaboration
+- Infinite Canvas
+- Moodboard
+- Personal Knowledge Management
+- Artificial Intelligence
+- Local First
+- Sunset
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,48 @@ maintainers:
 common:
 - type: Website
   url: https://www.kosmik.app/
+- type: Documentation
+  url: https://www.kosmik.app/tutorials
+- type: GettingStarted
+  url: https://www.kosmik.app/tutorials
+- type: Support
+  url: https://www.kosmik.app/contact-us
+- type: HelpCenter
+  url: https://www.kosmik.app/faq
+- type: Community
+  url: https://discord.gg/SfH7RARrBy
+- type: Blog
+  url: https://www.kosmik.app/blog
+- type: Newsletter
+  url: https://kosmikapp.substack.com/
+- type: BlogRSS
+  url: https://kosmikapp.substack.com/feed
+- type: Pricing
+  url: https://www.kosmik.app/pricing
+- type: SignUp
+  url: https://launchpad.kosmik.app/
+- type: TermsOfService
+  url: https://www.kosmik.app/terms
+- type: PrivacyPolicy
+  url: https://www.kosmik.app/privacy
+- type: LegalNotice
+  url: https://www.kosmik.app/legal-notice
+- type: Download
+  url: https://www.kosmik.app/downloads
+- type: Twitter
+  url: https://twitter.com/kosmik_app
+- type: Reddit
+  url: https://www.reddit.com/r/kosmik_app/
+- type: Lifecycle
+  url: lifecycle/kosmik-lifecycle.yml
+- type: Deprecation
+  url: https://www.kosmik.app/0-wind-down-export
+- type: DomainSecurity
+  url: security/kosmik-domain-security.yml
+- type: LLMsTxt
+  url: llms/kosmik-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
