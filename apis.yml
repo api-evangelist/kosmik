@@ -31,7 +31,7 @@ x-tier: stub
 x-tier-reason: no-public-api
 x-status: sunset
 x-sunset-date: '2026-05-31'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
