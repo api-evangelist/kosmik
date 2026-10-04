@@ -40,7 +40,7 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: no-public-api
-x-status: sunset
+x-status: defunct
 x-sunset-date: '2026-05-31'
 specificationVersion: '0.23'
 created: '2026-07-17'
@@ -56,6 +56,7 @@ tags:
 - Artificial Intelligence
 - Local-First
 - Sunset
+- Defunct
 tags_raw:
 - Company
 - Consumer
@@ -67,6 +68,7 @@ tags_raw:
 - Artificial Intelligence
 - Local First
 - Sunset
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
