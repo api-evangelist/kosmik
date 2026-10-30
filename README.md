@@ -64,35 +64,52 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: sunset — the product reached end of life on 31 May 2026.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Kosmik was an infinite-canvas visual workspace and AI moodboarding app for macOS and Windows,
-published by Lithium Media SAS in Paris and backed by Creandum. It organized work into spatial
-"universes" grouped in shared workspaces, and combined that canvas with a built-in web browser,
-web clipper, PDF reader, drawing and frames, real-time multiplayer collaboration, and AI features
-including auto-tagging, AI search and AI-assisted asset discovery.
+Kosmik was an infinite-canvas visual workspace and AI moodboarding app for macOS and Windows, published by Lithium Media SAS in Paris and backed by Creandum. It organized work into spatial "universes" grouped in shared workspaces, and combined that canvas with a built-in web browser, web clipper, PDF reader, drawing and frames, real-time multiplayer collaboration, and AI features including auto-tagging, AI search and AI-assisted asset discovery. Kosmik was an early mover on local-first storage, shipping an on-device IPFS node with multiplayer in 2018 and a multiplayer web browser in 2022, before consolidating that work into Kosmik 3 in 2025. Kosmik shipped no public API, SDK, CLI or webhook surface, and the product sunset on 31 May 2026; the vendor now publishes in-app universe and workspace export instructions in place of any migration interface.
 
-Kosmik was an early mover on local-first storage — it shipped an on-device IPFS node with
-multiplayer collaboration in 2018 and a multiplayer web browser in 2022 — before consolidating
-that work into Kosmik 3 in 2025.
+**Areas:** Company · Consumer · Productivity · Visual Collaboration · Infinite Canvas · Moodboard · Personal Knowledge Management · Artificial Intelligence · Local-First · Sunset · Defunct
 
-## API surface
+## Kosmik on APIs.io (historical record)
 
-None. Kosmik published no API, OpenAPI/AsyncAPI definition, SDK, CLI, webhook surface or
-developer portal at any point, and no `/.well-known/` discovery documents are served. The
-pricing page listed "MCP integrations" as a coming-soon feature of an unreleased "Ambassador"
-plan, but it never shipped.
+Everything profiled for Kosmik is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kosmik/](https://apis.io/providers/kosmik/)** — or go straight to one of the APIs or properties below.
 
-## Wind-down
+### Published properties
 
-Users export data in-app rather than through an API: universes and workspaces export as ZIP
-archives of their underlying files. See https://www.kosmik.app/0-wind-down-export.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### Security (1)
 
-- `lifecycle/kosmik-lifecycle.yml` — end-of-life record, wind-down policy, product timeline
-- `security/kosmik-domain-security.yml` — TLS/HSTS/DNS probe of kosmik.app
-- `well-known/kosmik-well-known.yml` — `/.well-known/` probe (nothing published)
-- `llms/kosmik-llms.txt` — llms.txt summary of the public surface
+Authentication, trust centre, and vulnerability disclosure.
 
-Backed by: creandum — https://www.kosmik.app/
+- [Kosmik Domain Security](https://apis.io/security/kosmik/kosmik-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.kosmik.app/)
+- [Documentation](https://www.kosmik.app/tutorials)
+- [Getting started](https://www.kosmik.app/tutorials)
+- [Pricing](https://www.kosmik.app/pricing)
+- [Sign up](https://launchpad.kosmik.app/)
+- [Support](https://www.kosmik.app/contact-us)
+- [Blog](https://www.kosmik.app/blog)
+- [Terms of service](https://www.kosmik.app/terms)
+- [Privacy policy](https://www.kosmik.app/privacy)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kosmik: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kosmik/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
